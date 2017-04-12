@@ -6,7 +6,7 @@ This project examines headlines from [Politico](http://www.politico.com), an Ame
 
 ### Data
 
-Politico's search feature can be found [here](http://www.politico.com/search?q=). After clicking "Advanced Search," we selected "Story" as the content type and "Oldest" as the sort method. The start and end dates can be selected on the page itself, but we manipulate them through the URL. When a search is performed, 20 results are returned per page. Pages can be selected at the bottom. The search results URL is of the form http://www.politico.com/search/[PAGE NUMBER]?s=oldest&adv=true&start=[MM/DD/YYYY]&end=[MM/DD/YYYY].
+Politico's search feature can be found [here](http://www.politico.com/search?q=). After clicking "Advanced Search," we selected "Story" as the content type and "Oldest" as the sort method. The start and end dates can be selected on the page itself, but we manipulate them through the URL. When a search is performed, 20 results are returned per page. Pages can be selected at the bottom. The search results URL is of the form http://www.politico.com/search/[PAGE]?s=oldest&adv=true&start=[MM/DD/YYYY]&end=[MM/DD/YYYY].
 
 ### Files
 
